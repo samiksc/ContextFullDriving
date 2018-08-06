@@ -1,0 +1,20 @@
+﻿{
+  "bindings": [
+    {
+      "type": "eventHubTrigger",
+      "name": "myEventHubMessage",
+      "connection": "Sam-Tenant1-IoTHub_events_IOTHUB",
+      "eventHubName": "myeventhub",
+      "consumerGroup": "$Default",
+      "cardinality": "many",
+      "direction": "in"
+    },
+    {
+      "type": "eventHub",
+      "name": "vehicleLocationData",
+      "connection": "VehicleEventsHub_RootManageSharedAccessKey_EVENTHUB",
+      "eventHubName": "outeventhub",
+      "direction": "out"
+    }
+  ]
+}

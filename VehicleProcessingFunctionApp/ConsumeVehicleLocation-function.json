@@ -1,0 +1,12 @@
+﻿{
+  "bindings": [
+    {
+      "type": "eventHubTrigger",
+      "name": "myEventHubMessage",
+      "direction": "in",
+      "eventHubName": "vehicle-location-eventhub",
+      "connection": "VehicleEventsHub_RootManageSharedAccessKey_EVENTHUB",
+      "consumerGroup": "$Default"
+    }
+  ]
+}

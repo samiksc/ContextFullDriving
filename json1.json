@@ -1,0 +1,9 @@
+{
+  "vehicleId": "MH12-3456",
+  "lat": "18.5224",
+  "long": "73.8587",
+  "sensor-type": "distance-sensor",
+  "sensor-position:": "back-right",
+  "distance": "20",
+  "object-position": "back-right"
+}
